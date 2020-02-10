@@ -1,0 +1,12 @@
+    <script>
+
+    fetch("https://cdn.ipayy.net/says/api.php?encode=json")
+
+        .then(res => res.json())
+
+        .then(data => susays.innerText = data.say);
+
+    </script>
+
+
+    <p id="susays">:D 获取中...</p>
