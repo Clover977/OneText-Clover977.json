@@ -1,12 +1,11 @@
-    <script>
+<script>
 
-    fetch("https://cdn.ipayy.net/says/api.php?encode=json")
+fetch("https://cdn.ipayy.net/says/api.php?encode=json")
 
-        .then(res => res.json())
+.then(res => res.json())
 
-        .then(data => susays.innerText = data.say);
+.then(data => susays.innerText = data.say);
+</script>
 
-    </script>
 
-
-    <p id="susays">:D 获取中...</p>
+<p id="susays">:D 获取中...</p>
